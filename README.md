@@ -1,2 +1,2 @@
 # Projects
-hands on Algorithms and Data structures
+Hands on Algorithms and Data structures

@@ -7,10 +7,12 @@ int main()
 	cin>>number;
 
 	sortArray Array_object(number);
-	//Array_object.insertionSort();
-	Array_object.selectionSort();
+	//Array_object.insertionSortA();
+	//Array_object.selectionSort();
+	//Array_object.bubbleSort();
+	Array_object.insertionSortB();
 	Array_object.displaySortedArray();
-	cin>>number;
+	_getch();
 
 	return 0;
 }

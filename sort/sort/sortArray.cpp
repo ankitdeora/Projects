@@ -15,7 +15,44 @@ sortArray::sortArray(int n)
 
 }
 
-void sortArray:: insertionSort()
+void sortArray::insertionSortB()
+{
+	for(int i=1;i<N;i++)
+	{
+		int j = i;
+		while(arr[j-1]>arr[j])
+		{
+			swap(&arr[j],&arr[j-1]);
+			j--;
+			if(j==0) break;
+		}
+	}
+}
+
+void sortArray:: bubbleSort()
+{
+	for(int i=N-1;i>=0;i--)
+	{
+		bool onceSwapped = false;
+		for(int j=0;j<i;j++)
+		{
+			if(arr[j]>arr[j+1])
+			{
+				swap(&arr[j],&arr[j+1]);
+				onceSwapped = true;
+			}
+		}
+		if(!onceSwapped) break;
+	}
+}
+
+void sortArray:: swap(int* a,int* b)
+{
+	int temp = *b;
+	*b = *a;
+	*a = temp;
+}
+void sortArray:: insertionSortA()
 {
 	int i, key, j;
    for (i = 1; i < N; i++)
@@ -75,12 +112,12 @@ void sortArray::displaySortedArray()
 	}
 	cout<<endl;
 
-	cout<<"sorted array:";
+	/*cout<<"sorted array:";
 	for(int i=0;i<N;i++)
 	{
 		cout<<sortedArray[i]<<',';
 	}
-	cout<<endl;
+	cout<<endl;*/
 }
 
 sortArray::~sortArray(void)

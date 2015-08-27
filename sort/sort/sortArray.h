@@ -3,6 +3,7 @@
 #include <stdlib.h>     /* srand, rand */
 #include <iostream>
 #include <time.h>       /* time */
+#include <conio.h>
 
 using namespace std;
 
@@ -16,11 +17,14 @@ private:
 public:
 	sortArray(int n);
 
-	void insertionSort();
+	void insertionSortA();
+	void insertionSortB();
 	void selectionSort();
+	void bubbleSort();
 	void shellSort();
 	void mergeSort();
 	void quickSort();
+	void swap(int*,int*);
 
 	void displaySortedArray();
 

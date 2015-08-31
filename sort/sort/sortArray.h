@@ -22,11 +22,14 @@ public:
 	void selectionSort();
 	void bubbleSort();
 	void shellSort();
-	void mergeSort();
+	void mergeSort(int,int);
+	void merge(int,int,int);
+
 	void quickSort();
 	void swap(int*,int*);
 
 	void displaySortedArray();
+	int getSize();
 
 	~sortArray(void);
 };

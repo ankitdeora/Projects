@@ -25,7 +25,8 @@ public:
 	void mergeSort(int,int);
 	void merge(int,int,int);
 
-	void quickSort();
+	void quickSort(int,int);
+	int partitionIndex(int,int);
 	void swap(int*,int*);
 
 	void displaySortedArray();

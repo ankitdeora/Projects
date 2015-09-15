@@ -92,6 +92,30 @@ void sortArray:: merge(int l,int m,int r)
     }
 }
 
+int sortArray::partitionIndex(int l,int r)
+{
+	int lastElement = arr[r];
+	int pIndex = l;
+	for(int i=l;i<r+1;i++)
+	{
+		if(arr[i]<=lastElement)
+		{
+			swap(&arr[i],&arr[pIndex]);
+			pIndex++;
+		}
+	}
+	return (pIndex-1);
+}
+
+void sortArray::quickSort(int left,int right)
+{
+	if(left<right)
+	{
+		int p_index = partitionIndex(left,right);
+		quickSort(left,p_index-1);
+		quickSort(p_index+1,right);
+	}
+}
 
 void sortArray:: bubbleSort()
 {

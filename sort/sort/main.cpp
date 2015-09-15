@@ -12,7 +12,8 @@ int main()
 	//Array_object.bubbleSort();
 	//Array_object.insertionSortB();
 	int size = Array_object.getSize();
-	Array_object.mergeSort(0,size-1);
+	//Array_object.mergeSort(0,size-1);
+	Array_object.quickSort(0,size-1);
 	Array_object.displaySortedArray();
 	_getch();
 

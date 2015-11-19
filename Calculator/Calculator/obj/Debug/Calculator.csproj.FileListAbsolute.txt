@@ -1,0 +1,18 @@
+C:\Users\ankitdeora2856\AppData\Local\Temporary Projects\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\ankitdeora2856\AppData\Local\Temporary Projects\Calculator\bin\Debug\Calculator.exe
+C:\Users\ankitdeora2856\AppData\Local\Temporary Projects\Calculator\bin\Debug\Calculator.pdb
+C:\Users\ankitdeora2856\AppData\Local\Temporary Projects\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+C:\Users\ankitdeora2856\AppData\Local\Temporary Projects\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\ankitdeora2856\AppData\Local\Temporary Projects\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\ankitdeora2856\AppData\Local\Temporary Projects\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
+C:\Users\ankitdeora2856\AppData\Local\Temporary Projects\Calculator\obj\Debug\Calculator.exe
+C:\Users\ankitdeora2856\AppData\Local\Temporary Projects\Calculator\obj\Debug\Calculator.pdb
+F:\docs\algo docs\algo files\Projects\Calculator\Calculator\bin\Debug\Calculator.exe.config
+F:\docs\algo docs\algo files\Projects\Calculator\Calculator\obj\Debug\Calculator.exe
+F:\docs\algo docs\algo files\Projects\Calculator\Calculator\obj\Debug\Calculator.pdb
+F:\docs\algo docs\algo files\Projects\Calculator\Calculator\bin\Debug\Calculator.exe
+F:\docs\algo docs\algo files\Projects\Calculator\Calculator\bin\Debug\Calculator.pdb
+F:\docs\algo docs\algo files\Projects\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+F:\docs\algo docs\algo files\Projects\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+F:\docs\algo docs\algo files\Projects\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+F:\docs\algo docs\algo files\Projects\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache

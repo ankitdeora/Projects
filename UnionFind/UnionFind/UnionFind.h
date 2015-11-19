@@ -2,8 +2,6 @@
 #define UNION_FIND_H
 
 #include <iostream>
-//#include <new>
-//#include "stdafx.h"
 using namespace std;
 
 class UnionFind

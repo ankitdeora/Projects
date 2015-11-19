@@ -1,0 +1,18 @@
+C:\Users\ankitdeora2856\AppData\Local\Temporary Projects\collision\bin\Debug\collision.exe.config
+C:\Users\ankitdeora2856\AppData\Local\Temporary Projects\collision\bin\Debug\collision.exe
+C:\Users\ankitdeora2856\AppData\Local\Temporary Projects\collision\bin\Debug\collision.pdb
+C:\Users\ankitdeora2856\AppData\Local\Temporary Projects\collision\obj\Debug\collision.csprojResolveAssemblyReference.cache
+C:\Users\ankitdeora2856\AppData\Local\Temporary Projects\collision\obj\Debug\collision.Form1.resources
+C:\Users\ankitdeora2856\AppData\Local\Temporary Projects\collision\obj\Debug\collision.Properties.Resources.resources
+C:\Users\ankitdeora2856\AppData\Local\Temporary Projects\collision\obj\Debug\collision.csproj.GenerateResource.Cache
+C:\Users\ankitdeora2856\AppData\Local\Temporary Projects\collision\obj\Debug\collision.exe
+C:\Users\ankitdeora2856\AppData\Local\Temporary Projects\collision\obj\Debug\collision.pdb
+F:\docs\algo docs\algo files\Projects\collision\collision\bin\Debug\collision.exe.config
+F:\docs\algo docs\algo files\Projects\collision\collision\obj\Debug\collision.exe
+F:\docs\algo docs\algo files\Projects\collision\collision\obj\Debug\collision.pdb
+F:\docs\algo docs\algo files\Projects\collision\collision\bin\Debug\collision.exe
+F:\docs\algo docs\algo files\Projects\collision\collision\bin\Debug\collision.pdb
+F:\docs\algo docs\algo files\Projects\collision\collision\obj\Debug\collision.csprojResolveAssemblyReference.cache
+F:\docs\algo docs\algo files\Projects\collision\collision\obj\Debug\collision.Form1.resources
+F:\docs\algo docs\algo files\Projects\collision\collision\obj\Debug\collision.Properties.Resources.resources
+F:\docs\algo docs\algo files\Projects\collision\collision\obj\Debug\collision.csproj.GenerateResource.Cache

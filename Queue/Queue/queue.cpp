@@ -32,18 +32,8 @@ void queue::enqueue(string in_str)
 {
 	node *ptrNode = new node(in_str);
 	node *temp = h_node;
-
-	//ptrNode->m_data = in_str;
-	
-	if (nodeCount==0)
-	{
-		h_node = ptrNode;
-	}
-	else
-	{
-		ptrNode->setNextNode(temp);
-		h_node = ptrNode;
-	}
+	ptrNode->setNextNode(temp);
+	h_node = ptrNode;
 	currentNode = h_node;
 	nodeCount++;
 }
@@ -60,7 +50,6 @@ void queue::dequeue()
 	delete temp;
 	temp = 0;
 	prev->setNextNode(NULL);
-	//temp = NULL;
 	
 	currentNode = h_node;
 	nodeCount--;

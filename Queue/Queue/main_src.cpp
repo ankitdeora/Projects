@@ -1,15 +1,15 @@
 #include "queue.h"
+#include <conio.h>
 
 int main()
 {
 	queue myqueue;
-	int number;
 
 	myqueue.enqueue("you");
 	myqueue.displayQueue();
 	cout << myqueue.getCount()<<endl;
 
-	myqueue.enqueue("suck");
+	myqueue.enqueue("rock");
 	myqueue.displayQueue();
 	cout << myqueue.getCount()<<endl;
 
@@ -38,13 +38,14 @@ int main()
 	
 	//node helloNode;
 	//helloNode = NULL;
+	/*
 	cout<<myqueue.hasNext()<<endl;
 	cout<<myqueue.next()<<endl;
 	cout<<myqueue.next()<<endl;
 	cout<<myqueue.next()<<endl;
 	cout<<myqueue.hasNext()<<endl;
+	*/
 
-
-	cin>>number;
+	_getch();
 	return 0;
 }

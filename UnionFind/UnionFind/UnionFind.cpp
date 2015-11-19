@@ -36,8 +36,9 @@ void UnionFind::display_arr()
 	int i;
 	for(i=0;i<N;i++)
 	{
-		cout << arr[i] << endl;
+		cout << arr[i] << " ";
 	}
+	cout<<endl;
 }
 		
 		

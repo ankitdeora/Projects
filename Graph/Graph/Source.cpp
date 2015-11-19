@@ -1,6 +1,7 @@
 #pragma once
 
 #include "graph.h"
+#include <conio.h>
 
 int main()
 {
@@ -23,7 +24,7 @@ int main()
 
 	cout<<endl;
 	mygraph.displayGraph();
-
+	
 	cout<<"enter source key"<<endl;
 	int c;
 	cin>>c;
@@ -36,7 +37,8 @@ int main()
 		cin>>c;
 		mygraph.backTrack(c);
 	}
-	cin>>c;
+	
+	_getch();
 
 	return 0;
 }

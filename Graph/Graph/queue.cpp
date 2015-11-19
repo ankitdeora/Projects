@@ -11,16 +11,8 @@ void queue::enqueue(int in_data)
 {
 	node *ptrNode = new node(in_data);
 	node *temp = h_node;
-	
-	if (nodeCount==0)
-	{
-		h_node = ptrNode;
-	}
-	else
-	{
-		ptrNode->setNextNode(temp);
-		h_node = ptrNode;
-	}
+	ptrNode->setNextNode(temp);
+	h_node = ptrNode;
 	currentNode = h_node;
 	nodeCount++;
 }

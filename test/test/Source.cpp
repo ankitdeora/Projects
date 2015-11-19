@@ -1,39 +1,29 @@
+//#include <bits/stdc++.h>
 #include <iostream>
-#include <stdint.h>
+#include <vector>
+#include <conio.h>
 using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	int n=0;
+	int n;
 	cin>>n;
+	int* arr = new int[n];
 
-	uint64_t* arr;
-	arr = new uint64_t[n];
+	for(int i=0;i<n;i++) cin>>arr[i];
 
-	for(int j=0;j<n;j++)
-	{
-		cin>>arr[j];
-	}
+	for(int j=0;j<n;j++) cout<<arr[j]<<" ";
+	cout<<endl;
 
-	for(int i=0;i<n;i++)
-	{
-		uint64_t var = 1;
-		int div_count = 0;
-		while(div_count<3)
-		{
-			if(arr[i]%var==0) div_count++;
-			var++;
-		}
 
-		if(var!=arr[i])
-		{
-			cout<<"NO"<<endl;
-		}
-		else
-		{
-			cout<<"YES"<<endl;
-		}
-	}
+	delete[] arr;
 
-	return 0;
+	int* num = new int;
+	cin>>*num;
+
+	delete num;
+
+  _getch();
+  return 0;
 }
+
